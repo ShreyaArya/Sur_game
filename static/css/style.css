@@ -1,0 +1,21 @@
+/* static/css/style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1, p {
+    margin: 10px 0;
+}
+
+form {
+    margin-top: 20px;
+}
+
+a {
+    display: block;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #007BFF;
+}
