@@ -1,0 +1,19 @@
+<!-- templates/start.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Web Game</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <h1>what is the sur?</h1>
+    <form action="/start_game" method="POST">
+        <label for="scale">Enter your Tanpura scale:</label>
+        <input type="text" name="scale" required>
+        <button type="submit">Start Game</button>
+    </form>
+</body>
+</html>
